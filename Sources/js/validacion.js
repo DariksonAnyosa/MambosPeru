@@ -23,7 +23,7 @@ form.addEventListener('submit', e => {
                 countdownSpan.textContent = countdown;
                 if (countdown <= 0) {
                     clearInterval(countdownInterval);
-                    window.location.href = '/index.html';
+                    window.location.href = '/MambosPeru/index.html';
                 }
             }, 1000);
         } else if (result.result === 'error') {
