@@ -23,7 +23,7 @@ form.addEventListener('submit', e => {
                 countdownSpan.textContent = countdown;
                 if (countdown <= 0) {
                     clearInterval(countdownInterval);
-                    window.location.href = '/Principal.html';
+                    window.location.href = '/index.html';
                 }
             }, 1000);
         } else if (result.result === 'error') {
